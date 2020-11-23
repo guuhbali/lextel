@@ -4339,47 +4339,7 @@ input[type=button].btn-block {
 .navbar-dark .navbar-text a:hover, .navbar-dark .navbar-text a:focus {
   color: #fff;
 }
-.tabs_b {
-  color: #000;
-  display: block;
-  padding-bottom: 16px;
-  font-size: 18px;
-  cursor: pointer;
-}
-.tabs_b.active {
-  border-bottom: 1px solid #fec503;
-  color:#fec503;
-}
-ul.tabs {
-	padding: 0;
-  margin: 0 0 0 0;    
-  border-top: 1px solid ;
-  list-style: none;
-  display: -moz-inline-stack;
-  display: inline-block;  
-    
-}
-ul.tabs li {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  display: -moz-inline-stack;
-  display: inline-block;  
-  padding-bottom: 16px;
-  width: 196px;
-  
-}
-ul.tabs li a {
-  color: rgb(0, 0, 0);  
-  font-size: 20px;  
-  padding: 12px 15px;
-  text-decoration:none;
-  font-weight;
-}
-.tabs_b.active {
-  border-bottom: 1px solid #fec503;
-  color:#fec503;
-}
+
 .oferta {
   display: flex;
   justify-content: center;

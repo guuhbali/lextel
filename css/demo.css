@@ -1,0 +1,36 @@
+/*
+	Todd Motto Labs
+	URL: www.toddmotto.com
+*/
+
+
+/*------------------------------------*\
+	Simple HTML5 data-tabs
+\*------------------------------------*/
+
+.tab {
+    float:left;
+    display:block;
+    padding:10px 20px;
+    text-decoration:none;
+    border-radius:5px 5px 0 0;
+    background:#F9F9F9;
+    color:#777;
+}
+.tab.active,
+.tab:hover {
+	background:#DDD;
+	color:#222;
+}
+.content {
+	display:none;
+    flex-wrap: wrap;
+    margin-right: -0.75rem;
+    margin-left: -0.75rem;
+}
+.content.active {
+	display:block;
+    flex-wrap: wrap;
+    margin-right: -0.75rem;
+    margin-left: -0.75rem;
+}
